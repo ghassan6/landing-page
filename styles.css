@@ -159,3 +159,35 @@ h1 {
     align-self: flex-end;
     margin-right: 20px;
 }
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 {
+    background-color: rgb(70, 133, 235);
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.box2 p {
+    color: white;
+    line-height: 3px;
+    font-weight: bold;
+}
+.box2 button {
+    border: white solid 0.5px;
+}
+
+#p {
+    font-weight: normal;
+    
+}
