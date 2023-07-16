@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    gap: 15px;
 }
 
 
@@ -14,7 +13,7 @@ img {
     height: auto;
 }
 
-.header, .main {
+.header, .main  {
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
@@ -68,9 +67,7 @@ a {
 }
 
 .links {
-    border: rgb(32, 27, 175) solid 5px;
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
     gap: 10px;
@@ -97,7 +94,7 @@ a {
 
 .s {
     max-width: 400px;
-    border: yellow solid 8px;
+
 }
 
 h1 {
@@ -190,4 +187,11 @@ h1 {
 #p {
     font-weight: normal;
     
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
